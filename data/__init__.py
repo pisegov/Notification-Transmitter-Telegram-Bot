@@ -1,1 +1,1 @@
-from .data import facultiesList, facultiesTitles, directionsList, directionsTitles, getItemByTitle
+from .server import server
