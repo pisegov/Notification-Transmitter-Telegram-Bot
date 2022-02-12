@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 import config
 
-botEventLoop = asyncio.get_event_loop()
+botEventLoop = asyncio.new_event_loop()
 bot = Bot(token=config.TOKEN, parse_mode=types.ParseMode.HTML, loop=botEventLoop)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)

@@ -1,0 +1,6 @@
+requests~=2.26.0
+aiogram~=2.14.3
+python-dotenv
+dataclasses
+flask
+flask_restful
