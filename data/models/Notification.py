@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 
 @dataclass
-class Direction:
+class Notification:
     def __init__(self, package_name, text):
         self.text = text
-        self.packageName = package_name
+        self.package_name = package_name
